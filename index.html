@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="image/cover.png" />
+    <link rel="styleSheet" href="style.css">
+    <title>Rendu CSS</title>
+    <meta name="description" content="Testez les couleurs de fonds, de texte, les tailles et les border-radius.">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="headerContainer">
+        <h1>Rendu CSS</h1>
+        <img src="image/logo_rendu_css.png" alt="logo de découverte rendu css">
+        </div>
+        
+    </header>
+    <main>
+        <div class="container">
+            <!--Input-->
+            <div class="partInput">
+                <div class="inputText">
+                    <label for="color">Couleur background</label>
+                    <input type="text" name="color" placeholder="hexadécimal, rgb, rgba..." id="color">
+                </div>
+                <div class="inputText">
+                    <label for="colorText">Couleur texte</label>
+                    <input type="text" name="color" placeholder="hexadécimal, rgb, rgba..." id="colorText">
+                </div>
+                <div class="inputText">
+                    <label for="size">Taille texte</label>
+                    <input type="text" name="fontSize" placeholder="taille en px, %, em, rem... " id="size">
+                </div>
+                <div class="inputText">
+                    <label for="border">Border-radius</label>
+                    <input type="text" name="border" placeholder="px, %, rem..." id="border">
+                </div>
+                <div class="buttonReset">
+                    <button class="reset" type="button">Reset</button>
+                </div>
+            </div>
+            <!--Bloc texte-->
+            <div class="blockText">
+                <p>Lorem ipsum dolor sit amet. Non repudiandae corporis qui atque Quis et quidem ipsa ut nihil iure et
+                    eaque dolores et dolorem dignissimos eos sapiente vero. Est voluptas animi quo consequatur rerum aut
+                    doloribus consequatur aut voluptates natus sit dignissimos beatae et maiores quod est deserunt
+                    eveniet.</p>
+            </div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        <a href="http://www.linkedin.com/in/alex-juré" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+        <a href="mailto:alexjuredev@gmail.com"><i class="fa-solid fa-paper-plane"></i>Mail</a>
+        <a href="https://github.com/alexjure" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>Github</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
